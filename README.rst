@@ -108,13 +108,13 @@ convert_to_string() and convert_to_txt() methods have two optional parameters -
 
 - You can add ``line_threshold='high'`` as a parameter while calling the method which in few cases can improve reading flowcharts and diagrams.
 
-TESTING
+Testing
 -------
 
 To make getting started easier for you, there is a bunch of sample code along with sample input files.
 Clone the repo and test out the code.
 
-LICENSE
+License
 -------
 
 **MIT**
@@ -122,7 +122,7 @@ LICENSE
 **This software is perpetually free :)**
 
 
-Have Advanced Intelligent Document Processing Needs ? Want to Automate Manual Data Entry Using AI ?
+Have Advanced Intelligent Document Processing Needs ?
 ------------
 We provide OCR and IDP solutions customised for various use cases - invoice automation, Receipt OCR, purchase order automation, accounts payable automation, ID Card OCR and many more.
 
