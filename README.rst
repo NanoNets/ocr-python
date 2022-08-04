@@ -67,7 +67,7 @@ Usage
 
     # PDF / Image to Boxes 
     # each element contains predicted word and bounding box information
-    # bounding box information
+    # bounding box information denotes the spatial position of each word in the file
     boxes = model.convert_to_boxes('test.png')
     for box in boxes:
         print(box)
