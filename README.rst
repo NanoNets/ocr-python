@@ -55,7 +55,7 @@ Usage
     
     # Authenticate
     # This software is perpetually free :)
-    # You can get your free API key (with unlimited requests) by creating a free account on https://app.nanonets.com/#/keys.
+    # You can get your free API key (with unlimited requests) by creating a free account on https://app.nanonets.com/#/keys?utm_source=wrapper.
     model.set_token('REPLACE_API_KEY')
     
     # PDF / Image to String
@@ -88,7 +88,7 @@ Usage
     # PDF / Image to Raw OCR Engine Output
     import json
     pred_json = model.convert_to_prediction('INPUT_FILE')
-    print(json.dumps(tables_json, indent=2))    
+    print(json.dumps(pred_json, indent=2))    
 
 **Note**
 
