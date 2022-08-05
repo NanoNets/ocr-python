@@ -15,16 +15,7 @@ It reads plain text and tables from image & PDF files using an OCR engine and pr
 - This package works on an OCR engine from `Nanonets <https://nanonets.com/?&utm_source=wrapper>`_.
 - We help businesses automate Manual Data Entry Using AI and reduce turn around times & manual effort required.
 - More than 1000 enterprises convert PDF documents and images to actionable text using Intelligent Document Processing from Nanonets.
-
-
-
-
-.. raw:: html
-
-    <iframe src="https://player.vimeo.com/video/455803970" \
-    width="100" height="100" frameborder="0" \
-    webkitAllowFullScreen mozallowfullscreen allowFullScreen \
-    class="align-left"></iframe>
+- `Watch a 60 seconds video on how AI and Machine Learning can automate heavy manual processes around documents. <https://player.vimeo.com/video/455803970?muted=1&autoplay=1>`_
 
 
 
