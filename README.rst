@@ -21,7 +21,10 @@ It reads plain text and tables from image & PDF files using an OCR engine and pr
 
 .. raw:: html
 
-    <iframe width="560" height="315" src="https://player.vimeo.com/video/455803970?muted=1&autoplay=1" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://player.vimeo.com/video/455803970" \
+    width="100" height="100" frameborder="0" \
+    webkitAllowFullScreen mozallowfullscreen allowFullScreen \
+    class="align-left"></iframe>
 
 
 
