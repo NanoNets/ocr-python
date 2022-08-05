@@ -96,13 +96,13 @@ convert_to_string() and convert_to_txt() methods have two optional parameters -
 
 1. **formatting**
 
-- ```lines and spaces``` : all formatting enabled
+- ```lines and spaces``` (DEFAULT) : all formatting enabled
 
-- ```none``` (DEFAULT) : single space separated text with all formatting removed
+- ```none``` : single space separated text with all formatting removed
 
 - ```lines``` : single space separated text with different lines separated with newline character 
 
-- ```pages``` (ONLY FOR pdf_to_string) : list of page wise single space separated text with all formatting removed
+- ```pages``` (ONLY FOR PDF FILE INPUTS) : list of page wise single space separated text with all formatting removed
 
 2. **line_threshold**
 
@@ -114,17 +114,17 @@ Testing
 To make getting started easier for you, there is a bunch of sample code along with sample input files.
 Clone the repo and test out the code.
 
-License
--------
-
-**MIT**
-
-**This software is perpetually free :)**
-
-
 Have Advanced Intelligent Document Processing Needs ?
 ------------
 We provide OCR and IDP solutions customised for various use cases - invoice automation, Receipt OCR, purchase order automation, accounts payable automation, ID Card OCR and many more.
 
 - Visit `nanonets.com <https://nanonets.com/?&utm_source=wrapper>`_ for enterprise OCR and IDP solutions.
 - Sign up on `app.nanonets.com/#/signup <https://app.nanonets.com/#/signup?&utm_source=wrapper>`_ to start a free trial.
+
+
+License
+-------
+
+**MIT**
+
+**This software is perpetually free :)**
