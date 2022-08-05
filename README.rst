@@ -112,7 +112,9 @@ Testing
 -------
 
 To make getting started easier for you, there is a bunch of sample code along with sample input files.
-Clone the repo and test out the code.
+- Clone the repo and test out the code.
+- all_tests.ipynb is a python notebook containing testing for all methods in the package.
+- convert_to_{METHOD}.py files are python files corresponding to each method in the package individually.
 
 Have Advanced Intelligent Document Processing Needs ?
 ------------
