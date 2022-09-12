@@ -77,10 +77,14 @@ Usage
 
     # PDF / Image to CSV
     # This method extracts tables from your file and prints them in a .csv file.
+    # NOTE : This particular function is a trial offering 1000 pages of use. 
+    # To use this at scale, please create your own model at app.nanonets.com --> New Model --> Tables.
     model.convert_to_csv('INPUT_FILE', output_file_name = 'OUTPUTNAME.csv')
 
     # PDF / Image to Tables
     # This method extracts tables from your file and returns a json object.
+    # NOTE : This particular function is a trial offering 1000 pages of use. 
+    # To use this at scale, please create your own model at app.nanonets.com --> New Model --> Tables.
     import json
     tables_json = model.convert_to_tables('INPUT_FILE')
     print(json.dumps(tables_json, indent=2))
