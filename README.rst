@@ -8,7 +8,7 @@ This python package is an optical character recognition (OCR) library. It reads 
 
 |
 
-.. image:: https://i.postimg.cc/59ZZmyrt/Screenshot-2022-07-12-at-11-37-27-PM.png
+.. image:: https://uploads-ssl.webflow.com/60545d366101292fb9c8e98e/60545d36610129d15ec8e9c6_logo-white.svg
    :target: https://nanonets.com/?&utm_source=wrapper
    
 |
