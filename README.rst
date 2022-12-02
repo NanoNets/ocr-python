@@ -102,7 +102,7 @@ To make getting started easier for you, there is a bunch of sample code along wi
 
 convert_to_string() and convert_to_txt() methods have two optional parameters - 
 
-1. **formatting**
+1. **formatting = **
 
 - ```lines and spaces``` (DEFAULT) : all formatting enabled
 
@@ -119,7 +119,7 @@ convert_to_string() and convert_to_txt() methods have two optional parameters -
 
 Advanced Functions
 ------------
-If extracting flat fields, tables and line items from PDFs and images is your use case, I will strongly advice you to create your own table extraction model by signing up on `app.nanonets.com <https://app.nanonets.com/#/signup?utm_source=wrapper>`_ and using our advanced API. This will improve functionalities, accuracy and response times significantly. Once you have created your account and model, you can use `API documentation present here <https://app.nanonets.com/documentation#operation/OCRModelLabelFileByModelIdPost>`_ to extract flat fields, tables and line items from any PDF or image.
+If extracting flat fields, tables and line items from PDFs and images is your use case, I will strongly advice you to create your own model by signing up on `app.nanonets.com <https://app.nanonets.com/#/signup?utm_source=wrapper>`_ and using our advanced API. This will improve functionalities, accuracy and response times significantly. Once you have created your account and model, you can use `API documentation present here <https://app.nanonets.com/documentation#operation/OCRModelLabelFileByModelIdPost>`_ to extract flat fields, tables and line items from any PDF or image.
 
 Nanonets
 ------------
