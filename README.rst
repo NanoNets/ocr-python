@@ -40,7 +40,7 @@ You can get your free API key (with unlimited requests) by creating a free accou
 Usage
 -----
 
-You can refer the code shared below or `directly use code from here <https://github.com/NanoNets/ocr-python-nanonets/blob/main/tests/alltests.ipynb>`_ .
+You can refer the code shared below or `directly use code from here <https://github.com/NanoNets/ocr-python-nanonets/blob/main/tests/alltests.ipynb>`_.
 
 .. code-block:: python
 
@@ -106,18 +106,22 @@ convert_to_string() and convert_to_txt() methods have two optional parameters -
 
 - ```lines and spaces``` (DEFAULT) : all formatting enabled
 
-- ```none``` : single space separated text with all formatting removed
+- ```none``` : space separated text with formatting removed
 
-- ```lines``` : single space separated text with different lines separated with newline character 
+- ```lines``` : space separated text with lines separated with newline character 
 
-- ```pages``` (ONLY FOR PDF FILE INPUTS) : list of page wise single space separated text with all formatting removed
+- ```pages``` (ONLY FOR PDF FILE INPUTS) : list of page wise space separated text
 
 2. **line_threshold**
 
 - You can add ``line_threshold='high'`` as a parameter while calling the method which in few cases can improve reading flowcharts and diagrams.
 
 
-Have Advanced Intelligent Document Processing Needs ?
+Advanced Functions
+------------
+If extracting flat fields, tables and line items from PDFs and images is your use case, I will strongly advice you to create your own table extraction model by signing up on `app.nanonets.com <https://app.nanonets.com/#/signup?utm_source=wrapper>`_ and using our advanced API. This will improve functionalities, accuracy and response times significantly. Once you have created your account and model, you can use `API documentation present here <https://app.nanonets.com/documentation#operation/OCRModelLabelFileByModelIdPost>`_ to extract flat fields, tables and line items from any PDF or image.
+
+Nanonets
 ------------
 We help businesses automate Manual Data Entry Using AI and reduce turn around times & manual effort required. More than 1000 enterprises use Nanonets for Intelligent Document Processing. We have generated incredible ROIs for our clients.
 
