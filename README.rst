@@ -11,16 +11,6 @@ It reads plain text and tables from image & PDF files using an OCR engine and pr
    :target: https://nanonets.com/?&utm_source=wrapper
    
 
-
-- This package works on an OCR engine from `Nanonets <https://nanonets.com/?&utm_source=wrapper>`_.
-- We help businesses automate Manual Data Entry Using AI and reduce turn around times & manual effort required.
-- More than 1000 enterprises convert PDF documents and images to actionable text using Intelligent Document Processing from Nanonets.
-- `Watch a 60 seconds video on how AI and Machine Learning can automate heavy manual processes around documents. <https://player.vimeo.com/video/455803970?muted=0&autoplay=1>`_
-
-
-
-
-
 Installation
 -----
 
@@ -61,6 +51,11 @@ Usage
     # You can get your free API key (with unlimited requests) by creating a free account on https://app.nanonets.com/#/keys?utm_source=wrapper.
     model.set_token('REPLACE_API_KEY')
     
+    # PDF / Image to Raw OCR Engine Output
+    import json
+    pred_json = model.convert_to_prediction('INPUT_FILE')
+    print(json.dumps(pred_json, indent=2))
+    
     # PDF / Image to String
     string = model.convert_to_string('INPUT_FILE')
     print(string)
@@ -90,12 +85,16 @@ Usage
     print(json.dumps(tables_json, indent=2))
 
     # PDF / Image to Searchable PDF
-    model.convert_to_searchable_pdf('INPUT_FILE', output_file_name = 'OUTPUTNAME.pdf')
+    model.convert_to_searchable_pdf('INPUT_FILE', output_file_name = 'OUTPUTNAME.pdf')  
 
-    # PDF / Image to Raw OCR Engine Output
-    import json
-    pred_json = model.convert_to_prediction('INPUT_FILE')
-    print(json.dumps(pred_json, indent=2))    
+Testing
+-------
+
+To make getting started easier for you, there is a bunch of sample code along with sample input files.
+
+- Clone the repo and open the /tests folder.
+- all_tests.ipynb is a python notebook containing testing for all methods in the package.
+- convert_to_{METHOD}.py files are python files corresponding to each method in the package individually.
 
 **Note**
 
@@ -115,17 +114,14 @@ convert_to_string() and convert_to_txt() methods have two optional parameters -
 
 - You can add ``line_threshold='high'`` as a parameter while calling the method which in few cases can improve reading flowcharts and diagrams.
 
-Testing
--------
-
-To make getting started easier for you, there is a bunch of sample code along with sample input files.
-
-- Clone the repo and open the /tests folder.
-- all_tests.ipynb is a python notebook containing testing for all methods in the package.
-- convert_to_{METHOD}.py files are python files corresponding to each method in the package individually.
 
 Have Advanced Intelligent Document Processing Needs ?
 ------------
+
+- We help businesses automate Manual Data Entry Using AI and reduce turn around times & manual effort required.
+- More than 1000 enterprises convert PDF documents and images to actionable text using Intelligent Document Processing from Nanonets.
+- `Watch a 60 seconds video on how AI and Machine Learning can automate heavy manual processes around documents. <https://player.vimeo.com/video/455803970?muted=0&autoplay=1>`_
+
 We provide OCR and IDP solutions customised for various use cases - invoice automation, Receipt OCR, purchase order automation, accounts payable automation, ID Card OCR and many more.
 
 - Visit `nanonets.com <https://nanonets.com/?&utm_source=wrapper>`_ for enterprise OCR and IDP solutions.
