@@ -1,10 +1,10 @@
-Python OCR Nanonets
+Python OCR
 ================
 
 .. image:: https://img.shields.io/pypi/v/ocr-nanonets-wrapper.svg?color=green
-   :target: https://pypi.python.org/pypi/ocr-nanonets-wrapper
+   :target: https://nanonets.com/?&utm_source=wrapper
 
-This python package is an optical character recognition (OCR) library. It reads plain text & tables from image & PDF files using an OCR engine & provides intelligent post-processing options to save OCR results in formats you want.
+This python package is an optical character recognition (OCR) library. It reads all text & tables from image & PDF files using an OCR engine & provides intelligent post-processing options to save OCR results in formats you want.
 
 .. image:: https://i.postimg.cc/59ZZmyrt/Screenshot-2022-07-12-at-11-37-27-PM.png
    :target: https://nanonets.com/?&utm_source=wrapper
@@ -93,7 +93,7 @@ Testing
 To make getting started easier for you, there is a bunch of sample code along with sample input files.
 
 - Clone or download the repo and open the /tests folder.
-- all_tests.ipynb is a python notebook containing testing for all methods in the package.
+- `all_tests.ipynb <https://github.com/NanoNets/ocr-python-nanonets/blob/main/tests/alltests.ipynb>`_ is a python notebook containing testing for all methods in the package.
 - convert_to_{METHOD}.py files are python files corresponding to each method in the package individually.
 
 **Note**
@@ -117,10 +117,7 @@ convert_to_string() and convert_to_txt() methods have two optional parameters -
 
 Have Advanced Intelligent Document Processing Needs ?
 ------------
-
-- We help businesses automate Manual Data Entry Using AI and reduce turn around times & manual effort required.
-- More than 1000 enterprises convert PDF documents and images to actionable text using Intelligent Document Processing from Nanonets.
-- `Watch a 60 seconds video on how AI and Machine Learning can automate heavy manual processes around documents. <https://player.vimeo.com/video/455803970?muted=0&autoplay=1>`_
+We help businesses automate Manual Data Entry Using AI and reduce turn around times & manual effort required. More than 1000 enterprises use Nanonets for Intelligent Document Processing. We have generated incredible ROIs for our clients.
 
 We provide OCR and IDP solutions customised for various use cases - invoice automation, Receipt OCR, purchase order automation, accounts payable automation, ID Card OCR and many more.
 
