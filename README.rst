@@ -4,8 +4,7 @@ Python OCR Nanonets
 .. image:: https://img.shields.io/pypi/v/ocr-nanonets-wrapper.svg?color=green
    :target: https://pypi.python.org/pypi/ocr-nanonets-wrapper
 
-This package is an optical character recognition (OCR) tool for python.
-It reads plain text and tables from image & PDF files using an OCR engine and provides intelligent post-processing options to ensure you get OCR results in formats you want.
+This python package is an optical character recognition (OCR) library. It reads plain text & tables from image & PDF files using an OCR engine and provides intelligent post-processing options to save OCR results in formats you want.
 
 .. image:: https://i.postimg.cc/59ZZmyrt/Screenshot-2022-07-12-at-11-37-27-PM.png
    :target: https://nanonets.com/?&utm_source=wrapper
@@ -16,8 +15,7 @@ Installation
 
 The package requires `Python 3 <https://www.python.org/downloads/>`_ to run.
 
-You can use pip to install:
-
+You can use `pip <https://pip.pypa.io/en/stable/installation/>`_ to install:
 
 .. code-block:: bash
 
@@ -39,6 +37,8 @@ You can get your free API key (with unlimited requests) by creating a free accou
 
 Usage
 -----
+
+You can refer the code shared below or `directly use code from here <https://github.com/NanoNets/ocr-python-nanonets/blob/main/tests/alltests.ipynb>`_ .
 
 .. code-block:: python
 
@@ -92,7 +92,7 @@ Testing
 
 To make getting started easier for you, there is a bunch of sample code along with sample input files.
 
-- Clone the repo and open the /tests folder.
+- Clone or download the repo and open the /tests folder.
 - all_tests.ipynb is a python notebook containing testing for all methods in the package.
 - convert_to_{METHOD}.py files are python files corresponding to each method in the package individually.
 
