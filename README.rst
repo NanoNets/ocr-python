@@ -4,7 +4,7 @@ Python OCR Nanonets
 .. image:: https://img.shields.io/pypi/v/ocr-nanonets-wrapper.svg?color=green
    :target: https://pypi.python.org/pypi/ocr-nanonets-wrapper
 
-This python package is an optical character recognition (OCR) library. It reads plain text & tables from image & PDF files using an OCR engine and provides intelligent post-processing options to save OCR results in formats you want.
+This python package is an optical character recognition (OCR) library. It reads plain text & tables from image & PDF files using an OCR engine & provides intelligent post-processing options to save OCR results in formats you want.
 
 .. image:: https://i.postimg.cc/59ZZmyrt/Screenshot-2022-07-12-at-11-37-27-PM.png
    :target: https://nanonets.com/?&utm_source=wrapper
