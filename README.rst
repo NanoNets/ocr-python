@@ -102,7 +102,7 @@ To make getting started easier for you, there is a bunch of sample code along wi
 
 convert_to_string() and convert_to_txt() methods have two optional parameters - 
 
-1. **formatting = **
+1. **formatting =**
 
 - ```lines and spaces``` (DEFAULT) : all formatting enabled
 
@@ -112,9 +112,10 @@ convert_to_string() and convert_to_txt() methods have two optional parameters -
 
 - ```pages``` (ONLY FOR PDF FILE INPUTS) : list of page wise space separated text
 
-2. **line_threshold**
+2. **line_threshold =**
 
-- You can add ``line_threshold='high'`` as a parameter while calling the method which in few cases can improve reading flowcharts and diagrams.
+- ```low``` : default
+- ```high``` : You can add ``line_threshold='high'`` as a parameter while calling the method which in few cases can improve reading flowcharts and diagrams.
 
 
 Advanced Functions
