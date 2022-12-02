@@ -104,13 +104,13 @@ convert_to_string() and convert_to_txt() methods have two optional parameters -
 
 1. **formatting =**
 
-- ```lines and spaces``` (DEFAULT) : all formatting enabled
+- ```lines and spaces``` : default, all formatting enabled
 
 - ```none``` : space separated text with formatting removed
 
 - ```lines``` : space separated text with lines separated with newline character 
 
-- ```pages``` (ONLY FOR PDF FILE INPUTS) : list of page wise space separated text
+- ```pages``` : list of page wise space separated text
 
 2. **line_threshold =**
 
